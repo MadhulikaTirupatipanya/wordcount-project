@@ -1,0 +1,19 @@
+<html>
+<head>
+  </head>
+
+  <body>
+    <p> count<p>
+      <a> Let's hope we understand this well </a><br>
+  <a> This is the text you have entered</a><br>
+  {{madness}}<br>
+  <a> These are the number of words entered: {{ count }}<br>
+    <a>Word count</a>
+    <!-- {{ worddictionary }} -->
+    {% for words, totalcount in sortedwords %}
+    {{ words }}<br>
+    {{ totalcount }}<br>
+
+    {% endfor %}
+    </body>
+</html>
